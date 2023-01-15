@@ -12,7 +12,7 @@ public class Health_Assistant {
         DateTimeFormatter dtf = DateTimeFormatter.ofPattern("HH");
         LocalDateTime now = LocalDateTime.now();
         String str = dtf.format(now);
-// converting time into integer i.e taking only hour
+// converting time into integer i.e. taking only hour
         int hhInNum = Integer.parseInt(str);
 // incrementing check to display right content according to time
         int check = -1;
@@ -89,7 +89,7 @@ public class Health_Assistant {
             } else if (hhInNum == 8) {
                 System.out.println("\nYour Current Activity is : TO HAVE YOUR BREAKFAST, MEDICINE AND FAMILY TIME ");
             } else if (hhInNum == 10) {
-                System.out.println("\nYour Current Activity is : TO LISTEN BHAJAN");
+                System.out.println("\nYour Current Activity is : TO LISTEN DEVOTIONAL SONGS");
             } else if (hhInNum == 12) {
                 System.out.println("\nYour Current Activity is : TO TAKE A NAP");
             } else if (hhInNum == 13) {
@@ -123,7 +123,7 @@ public class Health_Assistant {
             System.out.println("9 : Avoid Contact With People Who Are Sick");
         }
 // greetings while exiting app
-        if (hhInNum >= 00 && hhInNum <= 11) {
+        if (hhInNum >= 0 && hhInNum <= 11) {
             System.out.println("\nBye!\nHave a nice day! \nSee you next time.\n");
         } else if (hhInNum >= 12 && hhInNum <= 17) {
             System.out.println("\nBye!\nHave a wonderful day!...\nSee you next time.\n");
