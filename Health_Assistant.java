@@ -92,7 +92,7 @@ public class Health_Assistant {
                 System.out.println("\nYour Current Activity is : TO LISTEN BHAJAN");
             } else if (hhInNum == 12) {
                 System.out.println("\nYour Current Activity is : TO TAKE A NAP");
-            } else if (hhInNum == 1) {
+            } else if (hhInNum == 13) {
                 System.out.println("\nYour Current Activity is : LUNCH TIME");
             } else if (hhInNum == 14) {
                 System.out.println("\nYour Current Activity is : TO REST WHILE LISTENING MUSIC ");
